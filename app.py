@@ -260,10 +260,11 @@ if not st.session_state.game_started and st.session_state.current_operation_num 
 
 
 # --- Subtle Twitch Hint ---
-TWITCH_CHANNEL_NAME = "YourAwesomeTwitchChannel" # <<-- IMPORTANT: REPLACE WITH YOUR TWITCH CHANNEL NAME!
-TWITCH_URL = f"https://www.twitch.tv/{TWITCH_CHANNEL_NAME}"
+TWITCH_CHANNEL_NAME = "Gold_Gabe" # <--- REPLACE WITH YOUR TWITCH CHANNEL NAME!
+TWITCH_URL = f"https://www.twitch.tv/{'GOLD_GABE'}"
 
 st.sidebar.markdown("---")
-st.sidebar.markdown(f"Developed with brain sparks. [Join my streams on Twitch! 🎮]({TWITCH_URL})")
+st.sidebar.markdown(f"Developed with passion for OSRS. [Join the adventure on Twitch! 📺]({TWITCH_URL})")
+
 st.markdown("---")
-st.markdown(f"A mental challenge brought to you by an enthusiastic streamer. Catch me live on [Twitch: {TWITCH_CHANNEL_NAME}](<https://www.twitch.tv/{TWITCH_CHANNEL_NAME}>)! 🌟")
+st.markdown(f"Brought to you by an OSRS enthusiast. Find me live on [Twitch: {TWITCH_CHANNEL_NAME}](<https://www.twitch.tv/{TWITCH_CHANNEL_NAME}>) 🎮")
